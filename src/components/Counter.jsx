@@ -10,7 +10,7 @@ const Counter = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="flex items-center justify-center gap-4 mb-6">
-        <h1 className="text-3xl font-semibold"> Masud Counter App</h1>
+        <h1 className="text-3xl font-semibold"> Counter Masud App</h1>
       </div>
 
       <div className="text-5xl font-bold mb-10">{counter}</div>
