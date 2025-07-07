@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 
 const Counter = () => {
-  const [counter, setCounter] = useState(20);
+  const [counter, setCounter] = useState(10);
 
- const inc = () => setCounter (counter +1)
- const dec = () => setCounter(counter -1)
- const res = () => setCounter(0)
+  const inc = () => setCounter(counter + 1);
+  const dec = () => setCounter(counter - 1);
+  const res = () => setCounter(0);
 
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="flex items-center justify-center gap-4 mb-6">
-        <h1 className="text-3xl font-semibold"> Counter Mesud App</h1>
+        <h1 className="text-3xl font-semibold">Counter App</h1>
       </div>
 
       <div className="text-5xl font-bold mb-10">{counter}</div>
