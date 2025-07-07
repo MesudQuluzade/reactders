@@ -35,6 +35,8 @@ const Counter = () => {
           0
         </button>
       </div>
+
+      <footer className='mt-80'>Powered by Masud</footer>
     </div>
   );
 };
