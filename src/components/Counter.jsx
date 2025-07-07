@@ -4,7 +4,7 @@ const Counter = () => {
   const [counter, setCounter] = useState(20);
 
  const inc = () => setCounter (counter +1)
- const dec = () => (counter -1)
+ const dec = () => setCounter(counter -1)
  const res = () => setCounter(0)
 
   return (
